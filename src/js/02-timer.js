@@ -17,9 +17,6 @@ const refs = {
   secondsValue: document.querySelector('span.value[data-seconds]'),
 };
 
-refs.pEl.after(refs.boxEl);
-refs.boxEl.prepend(refs.inputDateTimePicker, refs.btnStart);
-refs.boxEl.after(refs.divTimer);
 refs.btnStart.setAttribute('disabled', '');
 
 const options = {

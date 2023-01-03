@@ -21,15 +21,15 @@ button {
   margin: 0 20px;
   width: 11em;
   height: 50px;
-  background: darksalmon;
+  background: tomato;
   color: black;
   text-transform: uppercase;
 }
 
 button:disabled {
   margin: 0 20px;
-  background: gray;
-  color: black;
+  background: transparent;
+  color: transparent;
 }
 
 input {

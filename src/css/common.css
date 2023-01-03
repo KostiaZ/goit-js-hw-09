@@ -28,8 +28,8 @@ button {
 
 button:disabled {
   margin: 0 20px;
-  background: transparent;
-  color: transparent;
+  background: gray;
+  color: white;
 }
 
 input {
